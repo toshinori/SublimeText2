@@ -1,0 +1,21 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 12.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"indent_guide_options":
+	[
+		"draw_active",
+		"draw_normal"
+	],
+	"show_panel_on_build": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_ctrl_keys": true,
+	"vintage_start_in_command_mode": true
+}
