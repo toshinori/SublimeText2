@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1344931844,
+	"auto_upgrade_last_run": 1345023288,
 	"installed_packages":
 	[
 		"All Autocomplete",
@@ -8,9 +8,9 @@
 		"DashDoc",
 		"Git",
 		"Gitignore",
+		"Guard",
 		"Package Control",
 		"RSpec",
-		"RubyMotion Autocomplete",
 		"RubyMotionBuilder",
 		"Shebang",
 		"SideBarGit",
