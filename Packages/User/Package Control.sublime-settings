@@ -1,8 +1,9 @@
 {
-	"auto_upgrade_last_run": 1344747325,
+	"auto_upgrade_last_run": 1344931844,
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"AutoFileName",
 		"BracketHighlighter",
 		"DashDoc",
 		"Git",
@@ -11,6 +12,7 @@
 		"RSpec",
 		"RubyMotion Autocomplete",
 		"RubyMotionBuilder",
+		"Shebang",
 		"SideBarGit",
 		"SublimeBlockCursor",
 		"SublimeCodeIntel",
