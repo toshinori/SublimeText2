@@ -8,13 +8,9 @@ class OnSaveComannd(sublime_plugin.EventListener):
 
 class HideAutoCompleteAndExitInsertModeCommand(sublime_plugin.TextCommand):
   def run(self, edit):
-    print "hide"
     if not self.view.settings().get('command_mode'):
       self.view.run_command('hide_auto_complete')
       self.view.run_command('exit_insert_mode')
-# class ExitInsertModeByForce(sublime_plugin.TextCommand):
-#   def run(self, view)
-#     print self
 
 
 
