@@ -1,9 +1,11 @@
 {
-	"auto_upgrade_last_run": 1345023288,
+	"auto_upgrade_last_run": 1345365650,
 	"installed_packages":
 	[
+		"Alignment",
 		"All Autocomplete",
 		"AutoFileName",
+		"BeautifyRuby",
 		"BracketHighlighter",
 		"DashDoc",
 		"Git",

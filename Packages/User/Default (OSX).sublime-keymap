@@ -21,7 +21,13 @@
         ]
     },
 
-    { "keys": ["ctrl+["], "command": "hide_auto_complete", "context":
+    { "keys": ["ctrl+["], "command": "hide_auto_complete_and_exit_insert_mode", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+
+    { "keys": ["escape"], "command": "hide_auto_complete_and_exit_insert_mode", "context":
         [
             { "key": "auto_complete_visible", "operator": "equal", "operand": true }
         ]
@@ -45,6 +51,8 @@
         ]
     },
 
+
+
     {
         "keys": ["0"], "command": "move_to", "args": {"to": "bol", "extend": false} ,
         "context":
@@ -61,4 +69,5 @@
             { "key": "setting.command_mode" }
        ]
     }
+
 ]
