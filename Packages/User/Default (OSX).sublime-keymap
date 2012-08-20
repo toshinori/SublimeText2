@@ -8,6 +8,11 @@
             { "key": "setting.command_mode", "operator": "equal", "operand": true }
         ]
     },
+    { "keys": ["tab"], "command": "auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
 
     {
         "keys": [";"], "command": "vi_colon_input",
@@ -20,13 +25,11 @@
             { "key": "selection_empty", "operator": "equal", "operand": false }
         ]
     },
-
     { "keys": ["ctrl+["], "command": "hide_auto_complete_and_exit_insert_mode", "context":
         [
             { "key": "auto_complete_visible", "operator": "equal", "operand": true }
         ]
     },
-
     { "keys": ["escape"], "command": "hide_auto_complete_and_exit_insert_mode", "context":
         [
             { "key": "auto_complete_visible", "operator": "equal", "operand": true }
@@ -50,8 +53,6 @@
             { "key": "setting.command_mode" }
         ]
     },
-
-
 
     {
         "keys": ["0"], "command": "move_to", "args": {"to": "bol", "extend": false} ,
