@@ -10,7 +10,8 @@
     },
     { "keys": ["tab"], "command": "auto_complete", "context":
         [
-            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true },
+            { "key": "has_next_field", "operator": "equal", "operand": false }
         ]
     },
 
@@ -27,12 +28,14 @@
     },
     { "keys": ["ctrl+["], "command": "hide_auto_complete_and_exit_insert_mode", "context":
         [
-            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true },
+            { "key": "has_next_field", "operator": "equal", "operand": false }
         ]
     },
     { "keys": ["escape"], "command": "hide_auto_complete_and_exit_insert_mode", "context":
         [
-            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true },
+            { "key": "has_next_field", "operator": "equal", "operand": false }
         ]
     },
 
