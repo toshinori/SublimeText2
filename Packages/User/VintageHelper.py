@@ -12,6 +12,7 @@ class HideAutoCompleteAndExitInsertModeCommand(sublime_plugin.TextCommand):
       self.view.run_command('hide_auto_complete')
       self.view.run_command('exit_insert_mode')
 
-
-
-
+class HideAutoCompleteAndSave(sublime_plugin.TextCommand):
+  def run(self, edit):
+    self.view.run_command('hide_auto_complete')
+    self.view.run_command('save')
