@@ -63,7 +63,7 @@
         [
             { "key": "setting.is_widget", "operand": false },
             { "key": "setting.command_mode" }
-       ]
+        ]
     },
     {
         "keys": ["9"], "command": "move_to", "args": {"to": "eol", "extend": false} ,
@@ -71,7 +71,7 @@
         [
             { "key": "setting.is_widget", "operand": false },
             { "key": "setting.command_mode" }
-       ]
+        ]
     },
 
     { "keys": ["super+s"], "command": "hide_auto_complete_and_save", "context":
@@ -81,3 +81,4 @@
     }
 
 ]
+
