@@ -73,12 +73,14 @@
             { "key": "setting.command_mode" }
         ]
     },
-
     { "keys": ["super+s"], "command": "hide_auto_complete_and_save", "context":
         [
             { "key": "auto_complete_visible", "operator": "equal", "operand": true }
         ]
-    }
-
+    },
+    { "keys": ["super+forward_slash"], "command": "toggle_comment_and_exit_visual_mode" },
+    { "keys": ["super+x"], "command": "run_and_exit_visual_mode", "args": {"command": "cut"} },
+    { "keys": ["super+c"], "command": "run_and_exit_visual_mode", "args": {"command": "copy"} },
+    { "keys": ["super+v"], "command": "run_and_exit_visual_mode", "args": {"command": "paste"} }
 ]
 

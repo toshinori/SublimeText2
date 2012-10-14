@@ -5,6 +5,8 @@
 		"PATH": "{HOME}/.rbenv/bin:{HOME}/.rbenv/shims:/usr/local/bin:{PATH}"
 	},
 	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Source Code Pro",
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -21,6 +23,12 @@
 	"trim_trailing_white_space_on_save": true,
 	"vintage_ctrl_keys": true,
 	"vintage_start_in_command_mode": true,
-	"font_face": "Source Code Pro",
-	"font_size": 13
+  "todo": {
+    "patterns": {
+    	"TODO": "TODO[\\s]*?:+(?P<todo>.*)$",
+    	"NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
+    	"FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
+    	"CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$"
+    }
+  }
 }

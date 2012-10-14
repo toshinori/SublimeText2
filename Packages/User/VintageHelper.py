@@ -16,3 +16,13 @@ class HideAutoCompleteAndSave(sublime_plugin.TextCommand):
   def run(self, edit):
     self.view.run_command('hide_auto_complete')
     self.view.run_command('save')
+
+class RunAndExitVisualModeCommand(sublime_plugin.TextCommand):
+  def run(self, edit, command):
+    self.view.run_command(command)
+    self.view.run_command("exit_visual_mode")
+
+class ToggleCommentAndExitVisualModeCommand(sublime_plugin.TextCommand):
+  def run(self, edit):
+    self.view.run_command('toggle_comment', {"block": False})
+    self.view.run_command("exit_visual_mode")
