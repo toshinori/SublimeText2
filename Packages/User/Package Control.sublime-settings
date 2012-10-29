@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1350186467,
+	"auto_upgrade_last_run": 1351516108,
 	"installed_packages":
 	[
 		"Alignment",
@@ -24,6 +24,7 @@
 		"SublimeLinter",
 		"SublimeREPL",
 		"SublimeTODO",
+		"Theme - Phoenix",
 		"VAlign",
 		"VintageEx"
 	]
