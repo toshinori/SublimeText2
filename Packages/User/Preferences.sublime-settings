@@ -1,13 +1,5 @@
 {
-	// "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"color_scheme": "Packages/Theme - Phoenix/Color Scheme/Tomorrow-Night.tmTheme",
-	"theme": "Phoenix Dark.sublime-theme",
-	// "phoenix_color_green": true,
-	"phoenix_eighties": true,
-	"phoenix_highlight_current_tab": true,
-	"phoenix_dirty_bottom_bar": true,
-	"phoenix_tabs_small": true,
-	"phoenix_color_expanded_folder": true,
 	"default_extend_env":
 	{
 		"PATH": "{HOME}/.rbenv/bin:{HOME}/.rbenv/shims:/usr/local/bin:{PATH}"
@@ -25,8 +17,12 @@
 		"draw_active",
 		"draw_normal"
 	],
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_eighties": true,
+	"phoenix_highlight_current_tab": true,
 	"show_panel_on_build": true,
 	"tab_size": 2,
+	"theme": "Phoenix Dark.sublime-theme",
 	"todo":
 	{
 		"patterns":
@@ -40,5 +36,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_ctrl_keys": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+	"scroll_past_end": true,
+	"caret_style": "phase"
 }

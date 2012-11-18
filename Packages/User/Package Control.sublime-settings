@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1351516108,
+	"auto_upgrade_last_run": 1352618800,
 	"installed_packages":
 	[
 		"Alignment",
@@ -13,6 +13,7 @@
 		"Gitignore",
 		"Guard",
 		"LiveReload",
+		"Local History",
 		"Markdown Preview",
 		"Package Control",
 		"RSpec",
@@ -24,7 +25,15 @@
 		"SublimeLinter",
 		"SublimeREPL",
 		"SublimeTODO",
+		"Surround",
+		"Surround Code with Snippets",
+		"Terminal",
+		"Theme - Aqua",
+		"Theme - Nil",
 		"Theme - Phoenix",
+		"Theme - Refined",
+		"Theme - Soda",
+		"Tomorrow Color Schemes",
 		"VAlign",
 		"VintageEx"
 	]

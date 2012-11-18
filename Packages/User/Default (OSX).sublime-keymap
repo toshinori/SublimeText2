@@ -28,14 +28,18 @@
     },
     { "keys": ["ctrl+["], "command": "hide_auto_complete_and_exit_insert_mode", "context":
         [
-            { "key": "auto_complete_visible", "operator": "equal", "operand": true },
-            { "key": "has_next_field", "operator": "equal", "operand": false }
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
         ]
     },
+    // { "keys": ["escape"], "command": "hide_auto_complete_and_exit_insert_mode", "context":
+    //     [
+    //         { "key": "auto_complete_visible", "operator": "equal", "operand": true },
+    //         { "key": "has_next_field", "operator": "equal", "operand": false }
+    //     ]
+    // },
     { "keys": ["escape"], "command": "hide_auto_complete_and_exit_insert_mode", "context":
         [
-            { "key": "auto_complete_visible", "operator": "equal", "operand": true },
-            { "key": "has_next_field", "operator": "equal", "operand": false }
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
         ]
     },
 
@@ -81,6 +85,23 @@
     { "keys": ["super+forward_slash"], "command": "toggle_comment_and_exit_visual_mode" },
     { "keys": ["super+x"], "command": "run_and_exit_visual_mode", "args": {"command": "cut"} },
     { "keys": ["super+c"], "command": "run_and_exit_visual_mode", "args": {"command": "copy"} },
-    { "keys": ["super+v"], "command": "run_and_exit_visual_mode", "args": {"command": "paste"} }
+    { "keys": ["super+v"], "command": "run_and_exit_visual_mode", "args": {"command": "paste"} },
+    {
+        "keys": ["s", "c"], "command": "surround_change",
+        "context":
+        [
+            { "key": "setting.is_widget", "operand": false },
+            { "key": "setting.command_mode" }
+        ]
+    },
+    {
+        "keys": ["s", "d"], "command": "surround_delete",
+        "context":
+        [
+            { "key": "setting.is_widget", "operand": false },
+            { "key": "setting.command_mode" }
+        ]
+    }
+
 ]
 
