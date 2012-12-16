@@ -101,7 +101,11 @@
             { "key": "setting.is_widget", "operand": false },
             { "key": "setting.command_mode" }
         ]
-    }
+    },
+
+    { "keys": ["ctrl+shift+r"], "command": "ruby_motion_run"},
+    { "keys": ["shift+super+r"], "command": "ruby_motion_run", "args": {"options": "retina=true"} },
+    { "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} }
 
 ]
 
