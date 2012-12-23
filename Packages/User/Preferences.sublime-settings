@@ -1,4 +1,5 @@
 {
+	"caret_style": "phase",
 	"color_scheme": "Packages/Theme - Phoenix/Color Scheme/Tomorrow-Night.tmTheme",
 	"default_extend_env":
 	{
@@ -6,7 +7,7 @@
 	},
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
-	"font_size": 13,
+	"font_size": 14.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -20,6 +21,7 @@
 	"phoenix_dirty_bottom_bar": true,
 	"phoenix_eighties": true,
 	"phoenix_highlight_current_tab": true,
+	"scroll_past_end": true,
 	"show_panel_on_build": true,
 	"tab_size": 2,
 	"theme": "Phoenix Dark.sublime-theme",
@@ -36,7 +38,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_ctrl_keys": true,
-	"vintage_start_in_command_mode": true,
-	"scroll_past_end": true,
-	"caret_style": "phase"
+	"vintage_start_in_command_mode": true
 }

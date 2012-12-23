@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1352618800,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"Alignment",
@@ -10,6 +10,7 @@
 		"CTags",
 		"DashDoc",
 		"Git",
+		"GitGutter",
 		"Gitignore",
 		"Guard",
 		"LiveReload",
@@ -29,6 +30,7 @@
 		"Surround Code with Snippets",
 		"Terminal",
 		"Theme - Aqua",
+		"Theme - Night",
 		"Theme - Nil",
 		"Theme - Phoenix",
 		"Theme - Refined",
