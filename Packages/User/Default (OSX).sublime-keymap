@@ -31,12 +31,17 @@
             { "key": "auto_complete_visible", "operator": "equal", "operand": true }
         ]
     },
-    // { "keys": ["escape"], "command": "hide_auto_complete_and_exit_insert_mode", "context":
-    //     [
-    //         { "key": "auto_complete_visible", "operator": "equal", "operand": true },
-    //         { "key": "has_next_field", "operator": "equal", "operand": false }
-    //     ]
-    // },
+    { "keys": ["ctrl+["], "command": "hide_overlay", "context":
+        [
+            { "key": "overlay_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+["], "command": "hide_panel", "args": {"cancel": true},
+        "context":
+        [
+            { "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    },
     { "keys": ["escape"], "command": "hide_auto_complete_and_exit_insert_mode", "context":
         [
             { "key": "auto_complete_visible", "operator": "equal", "operand": true }
