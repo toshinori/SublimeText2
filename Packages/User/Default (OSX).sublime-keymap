@@ -108,11 +108,11 @@
         ]
     },
 
-    { "keys": ["alt+r", "alt+r"], "command": "ruby_motion_run"},
-    { "keys": ["alt+r", "alt+t"], "command": "ruby_motion_run","args": {"options": "spec"}},
+    { "keys": ["super+r", "super+r"], "command": "ruby_motion_run"},
+    { "keys": ["super+r", "super+t"], "command": "ruby_motion_run","args": {"options": "spec"}},
 
     { "keys": ["shift+super+r"], "command": "ruby_motion_run", "args": {"options": "retina=true"} },
-    { "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+    { "keys": ["alt+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     {
         "keys": ["ctrl+w","0"],
         "command": "set_layout",
