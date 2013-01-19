@@ -123,6 +123,8 @@
             "cells": [[0, 0, 1, 1]]
         }
     },
-    { "keys": ["alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
+    { "keys": ["alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["super+ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["super+shift+p"], "command": "prompt_select_project" }
 ]
 
