@@ -108,10 +108,7 @@
         ]
     },
 
-    { "keys": ["super+r", "super+r"], "command": "ruby_motion_run"},
-    { "keys": ["super+r", "super+t"], "command": "ruby_motion_run","args": {"options": "spec"}},
-
-    { "keys": ["shift+super+r"], "command": "ruby_motion_run", "args": {"options": "retina=true"} },
+    { "keys": ["super+r"], "command": "ruby_motion_run_with_panel"},
     { "keys": ["alt+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     {
         "keys": ["ctrl+w","0"],
@@ -124,7 +121,10 @@
         }
     },
     { "keys": ["alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["super+ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+w","ctrl+w"], "command": "activate_next_group" },
+    { "keys": ["super+e"], "command": "open_directory_in_finder" },
     { "keys": ["super+shift+p"], "command": "prompt_select_project" }
 ]
 
